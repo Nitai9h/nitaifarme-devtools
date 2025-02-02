@@ -1,0 +1,43 @@
+{
+  "name": "nitaifarme-devtools",
+  "version": "1.0.0",
+  "description": "NitaiFarme plugin development tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nitai9h/nitaifarme-devtools"
+  },
+  "homepage": "https://github.com/Nitai9h/nitaifarme-devtools",
+  "bugs": "https://github.com/Nitai9h/nitaifarme-devtools/issues",
+  "main": "lib/core.js",
+  "bin": {
+    "nitaidev": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "nitaifarme",
+    "plugin-dev",
+    "development-tool"
+  ],
+  "author": "nitai@nitai.us.kg",
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^11.1.0",
+    "http-server": "~14.1.1",
+    "mime-types": "~2.1.35"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "http-server": "~14.1.1",
+    "mime-types": "~2.1.35"
+  }
+}
